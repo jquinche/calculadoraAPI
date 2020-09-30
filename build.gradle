@@ -26,7 +26,8 @@ dependencies {
 }
 
 test {
-	useJUnitPlatform()finalizedBy jacocoTestReport
+	useJUnitPlatform()
+	finalizedBy jacocoTestReport
 }
 jacocoTestReport {
  dependsOn test
